@@ -11,16 +11,16 @@ const Home = () => {
           <h1 className="leading-normal font-thin text-4xl md:text-5xl lg:text-[5rem] mb-[20px] text-[#70C8FA]">
             <span className="font-medium">Riley's</span> Way <br /> Foundation
           </h1>
-          <p className="font-body text-slate-300">
+          <p className=" text-slate-300 font-heading font-light">
             Through our programs, leadership training, and supportive community,
             we inspire the next generation to lead with compassion and create
             lasting impact in their communities and beyond.
           </p>
           <a
             href="#_"
-            class="relative inline-flex items-center px-12 py-2 mt-[50px] overflow-hidden text-lg font-medium text-indigo-600 border-2 border-indigo-600 rounded-full hover:text-white group hover:bg-gray-50"
+            class="relative inline-flex items-center px-12 py-2 mt-[50px] overflow-hidden text-lg font-medium text-[#9798E0] border-2 border-[#9798E0] rounded-full hover:text-white group hover:bg-gray-50"
           >
-            <span class="absolute left-0 block w-full h-0 transition-all bg-indigo-600 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+            <span class="absolute left-0 block w-full h-0 transition-all bg-[#9798E0] opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
             <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
               <svg
                 class="w-5 h-5"
@@ -37,7 +37,7 @@ const Home = () => {
                 ></path>
               </svg>
             </span>
-            <span class="relative">Our Impact Report</span>
+            <span class="relative font-light">Our Impact Report</span>
           </a>
         </div>
       </div>
